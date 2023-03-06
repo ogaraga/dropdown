@@ -82,6 +82,7 @@ header .pic {
   border: 10px dashed;
   border-radius: 20px;
   box-shadow: crimson;
+  background-repeat: no-repeat;
   animation: move 5s linear infinite;
 }
 header .pic:hover {
@@ -90,5 +91,10 @@ header .pic:hover {
 @keyframes move {
   10% {
     width: 230%;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */

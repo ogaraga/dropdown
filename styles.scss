@@ -95,7 +95,8 @@ header{
         margin-left: 20px;
         border: 10px dashed;
         border-radius: 20px;   
-        box-shadow: crimson;   
+        box-shadow: crimson;  
+        background-repeat: no-repeat; 
     
         &:hover{
             transform: translateX(100%);
@@ -108,5 +109,12 @@ header{
             }
         }
     }
-} 
+        
+    @media (max-width:576px) {
+        width: 100%;
+    }
+    
+}        
+
+
 
